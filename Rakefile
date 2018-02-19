@@ -21,7 +21,7 @@ Motion::Project::App.setup do |app|
   # ===========================================================================================
   # 2. Set your app name (this is what will show up under the icon when your app is installed).
   # ===========================================================================================
-  app.name = 'ruby_motion_testing'
+  app.name = 'RubyMotionSpriteKit'
 
   # version for your app
   app.version = '1.0'
@@ -44,7 +44,7 @@ Motion::Project::App.setup do |app|
   # ===========================================================================================
   # 5. If you need to reference any additional iOS libraries, use the config array below.
   # ===========================================================================================
-  # app.frameworks << "StoreKit"
+  app.frameworks = %w(CoreGraphics AVFoundation UIKit QuartzCore SpriteKit Foundation MultipeerConnectivity AudioToolbox StoreKit)
 
   # resonable defaults
   app.device_family = [:iphone, :ipad]

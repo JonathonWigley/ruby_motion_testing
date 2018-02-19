@@ -1,4 +1,4 @@
-describe "Application 'ruby_motion_testing'" do
+describe "Application 'RubyMotionSpriteKit'" do
   before do
     @app = UIApplication.sharedApplication
   end
